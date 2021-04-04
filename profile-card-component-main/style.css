@@ -19,8 +19,7 @@ Typography
 body {
   background-image: url("images/bg-pattern-top.svg"),
     url("images/bg-pattern-bottom.svg");
-  background-position: right bottom, left top;
-  background-attachment: scroll;
+  background-position: right -25% bottom -100%, left -25% top -100%;
   background-repeat: no-repeat;
 
   font-family: "Kumbh Sans", sans-serif;
@@ -92,4 +91,10 @@ Layout
   background: #fff;
   display: flex;
   justify-content: space-evenly;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-position: left -50% bottom -80%, right -50% top -120%;
+  }
 }
