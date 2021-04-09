@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body>
+    <div class="component grid-container">
+      <div class="image__container">
+        <img
+          class="photo developer"
+          src="images/image-tanya.jpg"
+          alt="Curly girl"
+        />
+        <img class= "photo developer display-toggle" image-toggle"
+        src="images/image-john.jpg" alt="Smiling light-bearded guy" />
+
+        <div class="image__buttons">
+          <a class="btn" href="#"><img src="images/icon-prev.svg" /></a>
+          <a class="btn" href="#"><img src="images/icon-next.svg" /></a>
+        </div>
+      </div>
+
+      <div class="info__container">
+        <div class="developer">
+          <p class="body">
+            “ I’ve been interested in coding for a while but never taken the
+            jump, until now. I couldn’t recommend this course enough. I’m now in
+            the job of my dreams and so excited about the future. ”
+          </p>
+          <div class="signature">
+            <p class="signature__name">Tanya Sinclair</p>
+            <p class="signature__role">UX Engineer</p>
+          </div>
+        </div>
+
+        <div class="developer display-toggle">
+          <p class="body">
+            “ If you want to lay the best foundation possible I’d recommend
+            taking this course. The depth the instructors go into is incredible.
+            I now feel so confident about starting up as a professional
+            developer. ”
+          </p>
+          <div class="signature">
+            <p class="signature__name">John Tarkpor</p>
+            <p class="signature__role">Junior Front-end Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/event.js"></script>
+  </body>
+</html>
